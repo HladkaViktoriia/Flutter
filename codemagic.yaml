@@ -1,0 +1,6 @@
+workflows:
+  flutter:
+    name: Flutter
+    scripts:
+      - name: Build for iOS    
+        script: flutter build ios --no-sound-null-safety    
